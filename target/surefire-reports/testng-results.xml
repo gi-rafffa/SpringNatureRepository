@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="40571" started-at="2016-07-26T15:28:48Z" finished-at="2016-07-26T15:29:29Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="40571" started-at="2016-07-26T15:28:48Z" finished-at="2016-07-26T15:29:29Z">
+      <class name="example.NewTest">
+        <test-method status="PASS" signature="testEasy()[pri:0, instance:example.NewTest@3567135c]" name="testEasy" duration-ms="9878" started-at="2016-07-26T17:29:19Z" finished-at="2016-07-26T17:29:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEasy -->
+      </class> <!-- example.NewTest -->
+      <class name="de.zipjet.tests.IntentPopupTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.zipjet.tests.IntentPopupTest@2d3fcdbd]" name="setUp" is-config="true" duration-ms="5621" started-at="2016-07-26T17:28:48Z" finished-at="2016-07-26T17:28:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="firstVisitNoPopup()[pri:0, instance:de.zipjet.tests.IntentPopupTest@2d3fcdbd]" name="firstVisitNoPopup" duration-ms="4220" started-at="2016-07-26T17:28:54Z" finished-at="2016-07-26T17:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstVisitNoPopup -->
+        <test-method status="PASS" signature="popUpForNewCustomerSecondTime()[pri:0, instance:de.zipjet.tests.IntentPopupTest@2d3fcdbd]" name="popUpForNewCustomerSecondTime" duration-ms="6072" started-at="2016-07-26T17:28:58Z" finished-at="2016-07-26T17:29:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popUpForNewCustomerSecondTime -->
+        <test-method status="PASS" signature="refreshSessionNotExpiredNoPopup()[pri:0, instance:de.zipjet.tests.IntentPopupTest@2d3fcdbd]" name="refreshSessionNotExpiredNoPopup" duration-ms="6158" started-at="2016-07-26T17:29:04Z" finished-at="2016-07-26T17:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshSessionNotExpiredNoPopup -->
+        <test-method status="PASS" signature="thirdVisitNoPopup()[pri:0, instance:de.zipjet.tests.IntentPopupTest@2d3fcdbd]" name="thirdVisitNoPopup" duration-ms="8454" started-at="2016-07-26T17:29:11Z" finished-at="2016-07-26T17:29:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdVisitNoPopup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:de.zipjet.tests.IntentPopupTest@2d3fcdbd]" name="tearDown" is-config="true" duration-ms="159" started-at="2016-07-26T17:29:29Z" finished-at="2016-07-26T17:29:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- de.zipjet.tests.IntentPopupTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
