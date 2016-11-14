@@ -29,7 +29,7 @@ public class BrowserManager {
 		FirefoxProfile profile = new FirefoxProfile();
 		profile.setEnableNativeEvents(true);
 		    driver = new FirefoxDriver(profile);
-		    baseUrl = "http://rd.springer.com";  
+		    baseUrl = "http://link.springer.com";  
 		    WebDriverWait wait = new WebDriverWait(driver, 15); 
 		    driver.get(baseUrl);
 		    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
